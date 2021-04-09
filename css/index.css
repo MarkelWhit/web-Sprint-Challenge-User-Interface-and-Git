@@ -123,7 +123,34 @@ p {
     width:100%;
 }
 body .middle-content .box1{
-    color: teal;
+    background-color: teal;
+}
+body .middle-content .box2{
+    background-color: gold;
+}
+body .middle-content .box3{
+    background-color: cadetblue;
+}
+body .middle-content .box4{
+    background-color: coral;
+}
+body .middle-content .box5{
+    background-color: crimson ;
+}
+body .middle-content .box6{
+    background-color: forestgreen;
+}
+body .middle-content .box7{
+    background-color: darkorchid;
+}
+body .middle-content .box8{
+    background-color:hotpink ;
+}
+body .middle-content .box9{
+    background-color: indigo;
+}
+body .middle-content .box10{
+    background-color: dodgerblue;
 }
 .top-content {
     display: flex;
@@ -158,7 +185,6 @@ body .middle-content .box1{
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
