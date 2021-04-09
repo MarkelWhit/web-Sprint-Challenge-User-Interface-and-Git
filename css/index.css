@@ -68,14 +68,32 @@ header button{
     border: none;   
     
 }
+footer p,footer h3{ 
+    padding-top: 3%;
+    padding-left: 3%;
+    margin:2 auto;
+    color:black;
+    align-content: center;
+}
 .containerabout-page{
     display: flex;
     width: 100%;
-    
+    justify-content: space-evenly;
 }
-.containerabout-page container{
-    
-
+.containerabout-page .top-left{
+    width:45%;
+}
+.containerabout-page .top-right{
+    width:45%;
+}
+.containerabout-page .bottom-left{
+    width:45%;
+}
+.containerabout-page .bottom-right{
+    width:45%;
+}
+body .containerabout-page{
+    flex-wrap: wrap;
 }
 .container header button a{
     font-style: normal;
@@ -158,18 +176,16 @@ p {
     padding-right: 0;
 }
 
-footer {
-    width: 100%;
-    background: black;
-}
 
 footer nav {
-    width: 60%;
+    width: 95%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    align-content: center;
+    background: black;
 }
 
 footer nav a {
