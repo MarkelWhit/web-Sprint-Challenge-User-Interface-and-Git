@@ -88,9 +88,11 @@ footer p,footer h3{
 }
 .containerabout-page .bottom-left{
     width:45%;
+    padding-top:2%;
 }
 .containerabout-page .bottom-right{
     width:45%;
+    padding-top:2%;
 }
 body .containerabout-page{
     flex-wrap: wrap;
@@ -114,10 +116,15 @@ p {
 }
 
 .container {
-    width: 600px;
+    width: 1000px;
     margin: 0 auto;
 }
-
+.container img{
+    width:100%;
+}
+body .middle-content .box1{
+    color: teal;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -191,4 +198,7 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+HEADER{
+    WIDTH:100%;
 }
