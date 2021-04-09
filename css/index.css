@@ -63,18 +63,29 @@ h1, h2, h3, h4, h5 {
 }
 header button{
     color: white;
-    text: black;
+    text-decoration: black;
     background-color: white; 
     border: none;   
+    
 }
-.boxes{
-    color: teal;
+.containerabout-page{
+    display: flex;
+    width: 100%;
+    
 }
-.b0x2{
-    color:gold;
+.containerabout-page container{
+    
+
+}
+.container header button a{
+    font-style: normal;
+    font-size: large;
+    text-decoration: black;
+    color: black;
 }
 header{
     display:flex;
+    height:85px;
     width:100%;
     justify-content: space-evenly;
     padding-bottom: 10px;
@@ -85,7 +96,7 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 600px;
     margin: 0 auto;
 }
 
@@ -128,6 +139,9 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.middle-content .boxes .b0x2{
+    background-color:gold;
 }
 
 .bottom-content {
