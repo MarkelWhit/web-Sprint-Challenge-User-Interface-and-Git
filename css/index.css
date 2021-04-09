@@ -61,6 +61,24 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
+header button{
+    color: white;
+    text: black;
+    background-color: white; 
+    border: none;   
+}
+.boxes{
+    color: teal;
+}
+.b0x2{
+    color:gold;
+}
+header{
+    display:flex;
+    width:100%;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
 
 p {
     line-height: 1.4;
