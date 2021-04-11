@@ -61,16 +61,97 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
+header button{
+    color: white;
+    text-decoration: black;
+    background-color: white; 
+    border: none;   
+    
+}
+footer p,footer h3{ 
+    padding-top: 3%;
+    padding-left: 3%;
+    margin:2 auto;
+    color:black;
+    align-content: center;
+}
+.containerabout-page{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.containerabout-page .top-left{
+    width:45%;
+}
+.containerabout-page .top-right{
+    width:45%;
+}
+.containerabout-page .bottom-left{
+    width:45%;
+    padding-top:2%;
+}
+.containerabout-page .bottom-right{
+    width:45%;
+    padding-top:2%;
+}
+body .containerabout-page{
+    flex-wrap: wrap;
+}
+.container header button a{
+    font-style: normal;
+    font-size: large;
+    text-decoration: black;
+    color: black;
+}
+header{
+    display:flex;
+    height:85px;
+    width:100%;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
 
 p {
     line-height: 1.4;
 }
 
 .container {
-    width: 800px;
+    width: 1000px;
     margin: 0 auto;
 }
-
+.container img{
+    width:100%;
+}
+body .middle-content .box1{
+    background-color: teal;
+}
+body .middle-content .box2{
+    background-color: gold;
+}
+body .middle-content .box3{
+    background-color: cadetblue;
+}
+body .middle-content .box4{
+    background-color: coral;
+}
+body .middle-content .box5{
+    background-color: crimson ;
+}
+body .middle-content .box6{
+    background-color: forestgreen;
+}
+body .middle-content .box7{
+    background-color: darkorchid;
+}
+body .middle-content .box8{
+    background-color:hotpink ;
+}
+body .middle-content .box9{
+    background-color: indigo;
+}
+body .middle-content .box10{
+    background-color: dodgerblue;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,12 +185,14 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.middle-content .boxes .b0x2{
+    background-color:gold;
 }
 
 .bottom-content {
@@ -126,21 +209,22 @@ p {
     padding-right: 0;
 }
 
-footer {
-    width: 100%;
-    background: black;
-}
 
 footer nav {
-    width: 60%;
+    width: 95%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    align-content: center;
+    background: black;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+HEADER{
+    WIDTH:100%;
 }
